@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="static/basic.css"
+    <title>This is a test form</title>
+</head>
+
+<form method="POST'">
+    Please enter your name <input name="name">
+    <button type = "submit">Make a post request</button>
+
+</form>
+
+{% if name %}
+    <div class="content">
+        <p>A post request has been made!</p>
+        <p>{{n name }}</p>
+    </div>
+{% endif %}
+
+<body>
+
+</body>
+</html>
